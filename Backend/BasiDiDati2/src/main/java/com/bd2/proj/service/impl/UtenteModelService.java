@@ -15,7 +15,8 @@ public class UtenteModelService {
         return utenteModelRepository.findByEmail(email).stream().findFirst().orElse(null);
     }
 
-    public void salvaUtenteModel(UtenteModel UtenteModel) {
-        utenteModelRepository.save(UtenteModel);
+
+    public UtenteModel creaNuovoUtente(UtenteModel utente) {
+        return utenteModelRepository.save(utente);
     }
 }

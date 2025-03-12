@@ -1,10 +1,20 @@
 package com.bd2.proj.model;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.util.List;
 
 public class OrdineModel {
+
+    public OrdineModel(String dataOrdine, String stato, List<ArticoloModel> articoli) {
+        this.dataOrdine = dataOrdine;
+        this.stato = stato;
+        this.articoli = articoli;
+    }
+
+    public OrdineModel() {
+    }
 
     @Field("data_ordine")
     private String dataOrdine;
