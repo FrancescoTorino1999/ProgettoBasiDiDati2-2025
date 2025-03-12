@@ -1,0 +1,28 @@
+.card-curriculum {
+
+    min-height: 300px;
+    min-width: 280px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    cursor: pointer;
+
+}
+
+.a:hover {
+
+    text-decoration: none;
+    color: inherit !important;
+}
+
+@media (max-width: 1200px) {
+    .card-curriculum {
+
+        max-width: 100%;
+        min-width: auto;
+    }
+
+}

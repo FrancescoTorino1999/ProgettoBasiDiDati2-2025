@@ -1,0 +1,11 @@
+.link {
+    display: flex;
+    color: inherit;
+    cursor: pointer;
+    color: #efdada;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: inherit;
+}

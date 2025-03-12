@@ -1,0 +1,19 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-inline: var(--margin);
+    padding-block: 20px;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    box-shadow: 1px;
+    align-items: center;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}

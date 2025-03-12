@@ -1,0 +1,104 @@
+@import "./mixins/mixins.scss";
+
+.font-heading- {
+    &xxl {
+      @include font(var(--fs-heading-xxl), var(--lh-heading-xxl));
+    }
+  
+    &xl {
+      @include font(var(--fs-heading-xl), var(--lh-heading-xl));
+    }
+  
+    &l {
+      @include font(var(--fs-heading-l), var(--lh-heading-l));
+    }
+  
+    &m {
+      @include font(var(--fs-heading-m), var(--lh-heading-m));
+    }
+  
+    &s {
+      @include font(var(--fs-heading-s), var(--lh-heading-s));
+    }
+  }
+  
+  .font-body- {
+    &xl {
+      @include font(var(--fs-body-xl), var(--lh-body-xl));
+    }
+  
+    &l {
+      @include font(var(--fs-body-l), var(--lh-body-l));
+    }
+  
+    &m {
+      @include font(var(--fs-body-m), var(--lh-body-m));
+    }
+  
+    &s {
+      @include font(var(--fs-body-s), var(--lh-body-s));
+    }
+  
+    &xs {
+      @include font(var(--fs-body-xs), var(--lh-body-xs));
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .font-heading-desktop- {
+      &xxl {
+        @include font(var(--fs-heading-xxl), var(--lh-heading-xxl));
+      }
+  
+      &xl {
+        @include font(var(--fs-heading-xl), var(--lh-heading-xl));
+      }
+  
+      &l {
+        @include font(var(--fs-heading-l), var(--lh-heading-l));
+      }
+  
+      &m {
+        @include font(var(--fs-heading-m), var(--lh-heading-m));
+      }
+  
+      &s {
+        @include font(var(--fs-heading-s), var(--lh-heading-s));
+      }
+    }
+  
+    .font-body-desktop- {
+      &xl {
+        @include font(var(--fs-body-xl), var(--lh-body-xl));
+      }
+  
+      &l {
+        @include font(var(--fs-body-l), var(--lh-body-l));
+      }
+  
+      &m {
+        @include font(var(--fs-body-m), var(--lh-body-m));
+      }
+  
+      &s {
+        @include font(var(--fs-body-s), var(--lh-body-s));
+      }
+  
+      &xs {
+        @include font(var(--fs-body-xs), var(--lh-body-xs));
+      }
+    }
+  }
+  
+  $font-weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  @each $weight in $font-weights {
+    .fw-#{$weight} {
+      font-weight: $weight;
+    }
+  
+    @media (min-width: 992px) {
+      .fw-desktop-#{$weight} {
+        font-weight: $weight;
+      }
+    }
+  }
