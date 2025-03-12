@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -18,9 +19,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.stream.Collectors;
 
-@ComponentScan(basePackages = {"com.curriculum.free","com.Spring.SpringBootMysql"})
-@EnableJpaRepositories("com.curriculum.free.*")
-@EntityScan("com.curriculum.free.*")
+@ComponentScan(basePackages = {"com.bd2.proj"})
+@EntityScan("com.bd2.proj.*")
+@EnableMongoRepositories(basePackages = "com.bd2.proj.repositories") // Aggiungi questa riga
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class BD2Application extends SpringBootServletInitializer {
 

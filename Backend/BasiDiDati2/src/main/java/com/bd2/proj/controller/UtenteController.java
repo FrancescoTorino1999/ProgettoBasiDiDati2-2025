@@ -19,9 +19,9 @@ public class UtenteController {
         UtenteModel UtenteModel = UtenteModelService.findByEmail(email);
 
         if (UtenteModel != null) {
-            return ResponseEntity.ok(UtenteModel); // Restituisce l'UtenteModel se trovato
+            return ResponseEntity.ok(UtenteModel);
         } else {
-            return ResponseEntity.notFound().build(); // Restituisce 404 se l'UtenteModel non è trovato
+            return ResponseEntity.ok(new UtenteModel());
         }
     }
 }

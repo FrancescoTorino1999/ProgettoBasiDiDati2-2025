@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 public class UtenteModelService {
 
     @Autowired
-    private UtenteRepository UtenteModelRepository;
+    private UtenteRepository utenteModelRepository;
 
     public UtenteModel findByEmail(String email) {
-        return UtenteModelRepository.findByEmail(email).stream().findFirst().orElse(null);
+        return utenteModelRepository.findByEmail(email).stream().findFirst().orElse(null);
     }
 
     public void salvaUtenteModel(UtenteModel UtenteModel) {
-        UtenteModelRepository.save(UtenteModel);
+        utenteModelRepository.save(UtenteModel);
     }
 }
