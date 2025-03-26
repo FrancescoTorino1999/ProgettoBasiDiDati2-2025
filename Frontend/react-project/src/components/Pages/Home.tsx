@@ -3,7 +3,7 @@ import { CONSTANTS } from "../../constants";
 import Card from "../Card/Card";
 import HeroBanner from "../HeroBanner/HeroBanner";
 import { LanguageContext } from "../../Contexts/LanguageProvider";
-import TableUsers from "../TableUsers/TableUsers";
+import TableSteamGames from "../TableSteamGames/TableSteamGames";
 
 function Home() {
 
@@ -11,12 +11,11 @@ function Home() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8080/findAll")
+        fetch("http://localhost:8080/findAllSteamgamesByPage?page=1")
             .then(response => response.json())
             .then(data => setData(data))
             .catch(error => console.error('Error fetching data:', error));
-    }, []); // Il secondo parametro vuoto [] significa che il codice viene eseguito solo una volta, al caricamento del componente
-
+    }, []);
 
     return (
         <>
@@ -33,7 +32,7 @@ function Home() {
 
                     <div className='custom-row'>
 
-                        <TableUsers users={data}></TableUsers>
+                        <TableSteamGames steamgames={data}></TableSteamGames>
 
                     </div>
 

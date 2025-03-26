@@ -1,11 +1,15 @@
+com/bd2/proj/service/impl/SteamGamesModelService.class
 com/bd2/proj/configuration/MongoConfig.class
 com/bd2/proj/repositories/UtenteRepository.class
 com/bd2/proj/configuration/AppConfig.class
+com/Spring/BD2Project/BD2Application.class
+com/bd2/proj/controller/UtenteController.class
+com/bd2/proj/controller/SteamGamesController.class
+com/bd2/proj/model/SteamGameModel.class
 com/bd2/proj/service/impl/UtenteModelService.class
 com/bd2/proj/model/OrdineModel.class
+com/bd2/proj/repositories/SteamGamesRepository.class
 com/bd2/proj/model/UtenteModel.class
-com/Spring/BD2Project/BD2Application.class
 com/bd2/proj/constants/Constants.class
 com/bd2/proj/model/ArticoloModel.class
 com/Spring/BD2Project/WebConfiguration.class
-com/bd2/proj/controller/UtenteController.class

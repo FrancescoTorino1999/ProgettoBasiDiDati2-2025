@@ -1,11 +1,15 @@
-/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/model/UtenteModel.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/model/ArticoloModel.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/Spring/BD2Project/BD2Application.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/repositories/UtenteRepository.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/constants/Constants.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/service/impl/UtenteModelService.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/model/SteamGameModel.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/model/UtenteModel.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/configuration/AppConfig.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/model/OrdineModel.java
-/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/service/impl/UtenteModelService.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/configuration/MongoConfig.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/controller/SteamGamesController.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/service/impl/SteamGamesModelService.java
+/Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/repositories/SteamGamesRepository.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/bd2/proj/controller/UtenteController.java
 /Users/francescomariatorino/Desktop/Gitprojects/ProgettoBasiDiDati2-2025/Backend/BasiDiDati2/src/main/java/com/Spring/BD2Project/WebConfiguration.java
